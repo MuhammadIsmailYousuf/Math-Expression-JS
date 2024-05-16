@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+
+// CHAPTER 5
+
+
+// 1. Write a program that take two numbers & add them in a new variable. Show the result in your browser
+var num1 = 5;
+var num2 = 3;
+
+var sum = (num1+num2);
+console.log("Sum of "+num1+" and "+num2+" is "+sum);
+
+
+// 2. Repeat task1 for subtraction, multiplication, division & modulus.
+
+var subtraction = (num1-num2);
+console.log("difference of "+num1+" and "+num2+" is "+subtraction);
+
+
+var multiplication = (num1*num2);
+console.log("product of "+num1+" and "+num2+" is "+multiplication);
+
+
+var division = (num1/num2);
+console.log("division of "+num1+" and "+num2+" is "+division);
+
+
+var modulos = (num1%num2);
+console.log("modulus of "+num1+" and "+num2+" is "+modulos);
+
+
+
+// 3. Do the following using JS Mathematic Expressions
+// a. Declare a variable.
+// b. Show the value of variable in your browser like “Value after variable declaration is: ??”.
+// c. Initialize the variable with some number.
+// d. Show the value of variable in your browser like “Initial value: 5”.
+// e. Increment the variable.
+// f. Show the value of variable in your browser like “Value after increment is: 6”.
+// g. Add 7 to the variable.
+// h. Show the value of variable in your browser like “Value after addition is: 13”.
+// i. Decrement the variable.
+// j. Show the value of variable in your browser like “Value after decrement is: 12”.
+// k. Show the remainder after dividing the variable’s value by 3. 
+// l. Output : “The remainder is : 0”.
+var a;
+console.log("value after variable declaration is ??");
+a = 5;
+console.log("initial value: "+a);
+console.log("Value after increment is: "+ ++a);
+a+=7;
+console.log("Value after addition is: "+ a);
+console.log("Value after deccrement is: "+ --a);
+console.log("The remainder is: "+ a%3);
+
+
+
+
+
+// 4. Cost of one movie ticket is 600 PKR. Write a script to 
+// store ticket price in a variable & calculate the cost of buying 5 tickets to a movie.
+
+ticket = 600;
+console.log("Toal cost to buy 5 tickets is "+ (ticket*5))
+
+
+// 5. Write a script to display multiplication table of any number in your browser. 
+var tableNumber = 4;
+console.log("4 x 1 = "+tableNumber * 1);
+console.log("4 x 2 = "+tableNumber * 2);
+console.log("4 x 3 = "+tableNumber * 3);
+console.log("4 x 4 = "+tableNumber * 4);
+console.log("4 x 5 = "+tableNumber * 5);
+console.log("4 x 6 = "+tableNumber * 6);
+console.log("4 x 7 = "+tableNumber * 7);
+console.log("4 x 8 = "+tableNumber * 8);
+console.log("4 x 9 = "+tableNumber * 9);
+console.log("4 x 10 = "+tableNumber * 10);
+
+
+
+
+// 6. The Temperature Converter: It’s hot out! Let’s make a converter based on the steps here.
+//  a. Store a Celsius temperature into a variable.
+// b. Convert it to Fahrenheit & output “NNoC is NNoF”.
+// c. Now store a Fahrenheit temperature into a variable.
+// d. Convert it to Celsius & output “NNoF is NNoC”
+
+var tempcelcius = 27;
+var fahrenhite = (tempcelcius * 9/5) + 32;
+console.log(tempcelcius+"C in Fahrenhite is "+fahrenhite+"F");
+
+var tempfahren = 70;
+var celcius = (tempfahren - 32) * 5/9;
+console.log(tempfahren+"F in Celcius is "+celcius+"C");
+
+
+
+// 13. The Lifetime Supply Calculator: Ever wonder how
+// much a “lifetime supply” of your favorite snack is? 
+// Wonder no more.
+// a. Store your favorite snack into a variable
+// b. Store your current age into a variable.
+// c. Store a maximum age into a variable.
+// d. Store an estimated amount per day (as a number).
+// e. Calculate how many would you eat total for the rest of
+// your life.
+// Output the result to the screen like so: “You will need 
+// NNNN to last you until the ripe old age of NN”.
+
+var snack = "fries";
+var currentage = 20;
+var maxage = 60;
+var amount = 2;
+var total = amount * (maxage * 365);
+
+
+console.log("Favorite snack: "+snack);
+console.log("Current age: "+currentage);
+console.log("amount of snacks per day: "+snack);
+
+console.log("Youu will need "+total+" "+snack+" to last you until the ripe old age of "+maxage);
+
+
+    </script>
+</body>
+</html>
